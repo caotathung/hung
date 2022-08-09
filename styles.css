@@ -1,0 +1,251 @@
+/* quy trinh lam viec
+- lam viec tu tren xuong duoi
+- lam viec tu trai sang phai
+- tong  quan den chi tiet
+*/
+
+/* vi tri
+- mau sac
+- hinh dang
+*/
+
+/* reset css */
+* {
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+ 
+}
+.header{
+    height: 46px;
+    background-color: #282A35;
+}
+
+.nav li {
+    display: inline-block;
+    line-height: 46px;
+}
+
+.nav li a {
+    padding: 15px 14px ;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.nav li:hover a {
+    background-color: #000;
+}
+
+.wrapper{
+    height: 100%;
+    padding: 20px 0px 0px;
+    width: 260px;
+    text-decoration: none;
+    background-color: #E7E9EB;
+    float: left;
+}
+.wrapper li a {
+    padding: 3px 2px 3px 24px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    height: 31.5px;
+    width: 243px;
+    text-decoration: none;
+    
+}
+.wrapper h2{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -4px 0px 4px;
+    padding: 0px 0px 0px 16px;
+}
+.menu{  
+    
+
+}
+.content{
+    width: 876px;
+    padding: 16px 32px 32px 32px;
+    align-items: right;
+    float: left;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.button-2{
+    float: right !important;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: var(--main_color);
+    color: white;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    height: 42px;
+    width: 94px;
+}
+.button:hover{
+    background-color: #059862;
+}
+.button-1{
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: var(--main_color);
+    color: white;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+.button{
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: var(--main_color);
+    color: white;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.button-3{
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #2193F3;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.button4{
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #E7E9EB;
+    color: black;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+:root{
+    --main_color: #04AA6D;
+}
+.doan1{
+
+    padding: 8px 20px;
+    background-color: #E7E9EB;
+    border-radius: 5px;
+}
+.doan3{
+    padding: 16px;
+    background-color: #E7E9EB;
+    border-radius: 5px;
+}
+.button5{
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: var(--main_color);
+    color: white;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.code1{
+    border-left: 4px solid #04AA6D;
+    width:auto;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+}
+.code2{
+    border-left: 4px solid #04AA6D;
+    width:auto;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+}
+.doan2{
+    background-color: #ffffcc;
+    padding: 52px;
+    margin: 24px -32px;
+}
+.form{
+    display: block;
+    background-color: #282A35;
+    padding: 20px;
+    margin: 32px -20px;
+    border-radius: 5px;
+}
+.form2{
+    display: block;
+    background-color: #282A35;
+    padding: 0px 60px 50px;
+    margin: 16px 0px 125px;
+    border-radius: 20px;
+    color: #ffc0c7;
+}
+.green1{
+    background-color: #D9EEE1;
+    padding: 52px;
+    margin: 24px -32px;
+}
+.footer{
+    padding: 32px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 876px;
+    margin-left: 260px;
+}
+.topw3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.topw3-footer{
+    margin: 10px 30px 0px 30px;
+}
+.forum{
+    display: flex;
+    justify-content: space-between;
+
+}
+.button-forum{
+    padding: 10px 30px 10px;
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+}
+.top10 a{
+    color: #000;
+    text-decoration: none;
+}
+.button6{
+    background-color: #000;
+    margin: 16px 0px 0px;
+    padding: 8px 16px;}
+.button-forum:hover{
+    background-color: #000;
+    color: #fff;
+}
+.top10-a:hover{
+    background-color:greenyellow ;
+}
